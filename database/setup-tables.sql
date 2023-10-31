@@ -62,7 +62,11 @@ VALUES
 	(17,'Pramatari','Katerina',NULL,NULL),
 	(18,'Papakiriakopoulos','Dimitris',NULL,NULL),
 	(19,'Acton','Tom','University of Galway',NULL),
-	(20,'Datta','Pratim Milton','Kent State University / University of Johannesburg','0000-0001-7371-4627');
+	(20,'Datta','Pratim Milton','Kent State University / University of Johannesburg','0000-0001-7371-4627'),
+	(21,'Edison','Henry','Lero / University of Galway',NULL),
+	(22,'Morgan','Lorraine','Lero / University of Galway',NULL),
+	(23,'Healy','Robert',NULL,NULL),
+	(24,'Dey','Tapajit','Lero / University of Limerick',NULL);
 
 
 INSERT INTO paper (paper_id, paper_title, pub_year, paper_type, doi, outlet_name, citations)
@@ -75,7 +79,15 @@ VALUES
 	(6,'Using Business Analytics for SME Business Model Transformation under Pandemic Time Pressure',2022,'J','10.1007/s10796-022-10255-8','Information Systems Frontiers',21),
 	(7,'Beyond the Factory Paradigm: Digital Nomadism and the Digital Future(s) of Knowledge Work Post-COVID-19',2020,'J','10.17705/1jais.00641','Journal of the Association for Information Systems',100),
 	(8,'Retail business analytics: Customer visit segmentation using market basket data',2018,'J','10.1016/j.eswa.2018.01.029','Expert Systems with Applications',154),
-	(9,'From disruption to ransomware: Lessons From hackers',2022,'J','10.1177/20438869221110246','Journal of Information Technology Teaching Cases',8);
+	(9,'From disruption to ransomware: Lessons From hackers',2022,'J','10.1177/20438869221110246','Journal of Information Technology Teaching Cases',8),
+	(10,'Toward a conceptual framework of agile methods: a study of agility in different disciplines',2004,'C','10.1145/1029997.1030005','ACM Workshop on Interdisciplinary Software Engineering Research',489),
+	(11,'Method and developer characteristics for effective agile method tailoring: A study of XP expert opinion',2010,'J','10.1145/1767751.1767753','ACM Transactions on Software Engineering and Methodology',202),
+	(12,'Normalising the “new normal”: Changing tech-driven work practices under pandemic time pressure',2020,'J','10.1016/j.ijinfomgt.2020.102186','International Journal of Information Management',410),
+	(13,'Understanding the Influence of Technostress on Workers’ Job Satisfaction in Gig-economy: An Exploratory Investigation',2019,'C',NULL,'European Conference on Information Systems',13),
+	(14,'An investigation into inner source software development: Preliminary findings from a systematic literature review',2018,'J','10.1145/3233391.3233529','International Symposium on Open Collaboration',3),
+	(15,'A Novel Technique to Assess Agile Systems for Stability',2023,'C','10.1007/978-3-031-33976-9_2','International Conference on Agile Software Development',NULL),
+	(16,'Breaking the flow: a study of contradictions in information systems development (ISD)',2020,'J','10.1108/ITP-02-2018-0102','Information Technology & People',31);
+
 
 INSERT INTO authorship (authorship_id, paper_id, researcher_id, seqno)
 VALUES
@@ -104,6 +116,23 @@ VALUES
 	(23,8,17,3),
 	(24,8,18,4),
 	(25,9,20,1),
-	(26,9,19,2);
-
-
+	(26,9,19,2),
+	(27,10,1,1),
+	(28,10,8,2),
+	(29,11,1,1),
+	(30,11,8,2),
+	(31,12,6,1),
+	(32,12,1,2),
+	(33,13,4,1),
+	(34,13,1,2),
+	(35,13,5,3),
+	(36,14,21,1),
+	(37,14,6,2),
+	(38,14,1,3),
+	(39,14,22,4),
+	(40,15,23,1),
+	(41,15,24,2),
+	(42,15,1,3),
+	(43,15,8,4),
+	(44,16,3,1),
+	(45,16,1,2);
